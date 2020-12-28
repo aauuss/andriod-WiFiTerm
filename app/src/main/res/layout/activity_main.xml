@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.example.hgfhgh.wifiterm.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/msgText" android:layout_marginLeft="10dp"
+            android:layout_marginRight="100dp" android:layout_marginTop="80dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/sTempTop" android:layout_marginLeft="10dp"
+            android:layout_marginTop="110dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/sTempMid" android:layout_marginLeft="10dp"
+            android:layout_marginTop="140dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/sTempBot" android:layout_marginTop="170dp"
+            android:layout_marginLeft="10dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/sLs" android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/greenls" android:id="@+id/greenLS"
+            android:layout_marginLeft="30dp" android:layout_marginTop="200dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/redls" android:id="@+id/redLS"
+            android:layout_marginLeft="30dp" android:layout_marginTop="200dp"/>
+    <Button
+            android:text="ACK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/buttonAck" android:layout_marginTop="450dp"
+            android:layout_marginLeft="150dp" android:elevation="1dp" android:onClick="onAckButtonClick"/>
+
+</android.support.design.widget.CoordinatorLayout>

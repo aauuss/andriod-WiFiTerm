@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.hgfhgh.wifiterm.MainActivity">
+    <item
+        android:id="@+id/menuSettings"
+        android:title="Settings"></item>
+    <item
+        android:id="@+id/menuTrend"
+        android:title="Trend"></item>
+    <item
+        android:id="@+id/menuExit"
+        android:title="Exit"></item>
+
+</menu>
